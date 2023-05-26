@@ -1,0 +1,20 @@
+--Create a grocery store database
+
+CREATE TABLE store (id INTEGER PRIMARY KEY, item TEXT, section TEXT, price INTEGER, popularity INTEGER);
+INSERT into Pet_Store VALUES (1, "Dog", 100, 14, 3, 5);
+INSERT into Pet_Store VALUES (2, "Cat", 50, 9, 1, 7);
+INSERT into PET_Store VALUES (3, "Hamster", 20, 24, 5, 15);
+
+--display the database ordered by price. 
+
+SELECT * FROM Pet_Store ORDER BY price;
+
+--What is the sum total amount of all pet purchases? 
+
+SELECT sum(sold) FROM Pet_Store;
+
+
+
+
+
+
